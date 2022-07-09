@@ -17,11 +17,10 @@ export default function Pricing() {
       <div className="pt-28 px-4 sm:px-6 lg:px-8 lg:pt-20">
         <div className="text-center">
           <p className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl">
-            Pricing
+            Cek Harga
           </p>
           <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-700 sm:mt-5 sm:text-2xl">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit numquam eligendi quos odit doloribus
-            molestiae voluptatum.
+          Pilih dan Pesan Sekarang , silahkan tanyakan sesuai keinginan, Azmi Tour sangat terpercaya.
           </p>
         </div>
       </div>
@@ -37,7 +36,7 @@ export default function Pricing() {
                     <div className="bg-white px-6 py-10">
                       <div>
                         <h3 className="text-center text-2xl font-medium text-gray-900" id="tier-hobby">
-                          Hobby
+                          Wisata
                         </h3>
                         <div className="mt-4 flex items-center justify-center">
                           <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
@@ -66,7 +65,7 @@ export default function Pricing() {
                             className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-hobby"
                           >
-                            Start your trial
+                            Pesan Sekarang
                           </a>
                         </div>
                       </div>
@@ -90,7 +89,7 @@ export default function Pricing() {
                   <div className="bg-white rounded-t-lg px-6 pt-12 pb-10">
                     <div>
                       <h3 className="text-center text-3xl font-semibold text-gray-900 sm:-mx-6" id="tier-growth">
-                        Growth
+                        Wisata Ziarah
                       </h3>
                       <div className="mt-4 flex items-center justify-center">
                         <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl">
@@ -119,7 +118,7 @@ export default function Pricing() {
                           className="block w-full text-center rounded-lg border border-transparent bg-indigo-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-indigo-700"
                           aria-describedby="tier-growth"
                         >
-                          Start your trial
+                          Pesan Sekarang
                         </a>
                       </div>
                     </div>
@@ -132,7 +131,7 @@ export default function Pricing() {
                     <div className="bg-white px-6 py-10">
                       <div>
                         <h3 className="text-center text-2xl font-medium text-gray-900" id="tier-scale">
-                          Scale
+                          Study Tour
                         </h3>
                         <div className="mt-4 flex items-center justify-center">
                           <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
@@ -161,7 +160,7 @@ export default function Pricing() {
                             className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-scale"
                           >
-                            Start your trial
+                            Pesan Sekarang
                           </a>
                         </div>
                       </div>

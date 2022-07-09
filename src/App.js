@@ -424,16 +424,13 @@ function App() {
             <div className="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
               <div className="md:ml-auto md:w-1/2 md:pl-10">
                 <h2 className="text-base font-semibold uppercase tracking-wider text-gray-300">
-                  Award winning support
+                  Legalisasi Azmi Tour
                 </h2>
                 <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
-                  We’re here to help
+                  Kami sudah mengantongi izin
                 </p>
                 <p className="mt-3 text-lg text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
-                  egestas tempus tellus etiam sed. Quam a scelerisque amet
-                  ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
-                  quisque ut interdum tincidunt duis.
+                  Azmi Tour sudah mengantongi izin Berusaha berbasis risiko dari Pemerintah Republik Indonesia dengan judul KBLI Jasa Pramuwisata, Dengan demikian tidak diragukan lagi ke absahannya, ayuk kita wisata bersama Azmi Tour
                 </p>
                 <div className="mt-8">
                   <div className="inline-flex rounded-md shadow">
