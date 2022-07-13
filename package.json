@@ -1,7 +1,7 @@
 {
   "name": "pages-azmitour",
   "version": "0.1.0",
-  "homepage": "https://mhanifmuhsin.github.io/pages-azmitour",
+  "homepage": "https://azmi-tour.com",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.6.5",
