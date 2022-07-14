@@ -467,8 +467,7 @@ function App() {
                   alt="Company name"
                 />
                 <p className="text-gray-500 text-base">
-                  Making the world a better place through constructing elegant
-                  hierarchies.
+                Membuat dunia menjadi tempat yang lebih baik dengan merawatnya dan menjadikan tempat yang tenang untuk kita semua.
                 </p>
                 <div className="flex space-x-6">
                   {footerNavigation.social.map((item) => (
@@ -487,7 +486,7 @@ function App() {
                 <div className="md:grid md:grid-cols-2 md:gap-8">
                   <div>
                     <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                      Solutions
+                      Partner
                     </h3>
                     <ul role="list" className="mt-4 space-y-4">
                       {footerNavigation.solutions.map((item) => (
@@ -502,7 +501,7 @@ function App() {
                       ))}
                     </ul>
                   </div>
-                  <div className="mt-12 md:mt-0">
+                  {/* <div className="mt-12 md:mt-0">
                     <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
                       Support
                     </h3>
@@ -518,9 +517,9 @@ function App() {
                         </li>
                       ))}
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
-                <div className="md:grid md:grid-cols-2 md:gap-8">
+                {/* <div className="md:grid md:grid-cols-2 md:gap-8">
                   <div>
                     <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
                       Company
@@ -555,7 +554,7 @@ function App() {
                       ))}
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="mt-12 border-t border-gray-200 py-8">
