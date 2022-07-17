@@ -20,6 +20,7 @@ import Hero from "./components/Hero";
 import Gallery from "./components/Gallery";
 import { Link } from "react-scroll";
 import CTA from "./components/CTA";
+import MyPartners from "./components/MyPartner";
 
 const navigation = [
   { name: "Home", href: "home" },
@@ -309,19 +310,13 @@ function App() {
         </Popover>
         <main>
           <Hero ImageTravel={ImageTravel} />
-
+          <MyPartners/>
           <Pricing />
-          <Platform />
-
+          {/* <Platform /> */}
           <Gallery features={features} />
-
           <Testimonial />
-
           <CTA />
-
-          <section>
-            <Faq />
-          </section>
+          <Faq />
         </main>
         <footer className="bg-gray-50" aria-labelledby="footer-heading">
           <h2 id="footer-heading" className="sr-only">
