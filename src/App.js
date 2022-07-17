@@ -296,34 +296,18 @@ function App() {
                       </a>
                     ))}
                   </div>
-                  <div className="mt-6 px-5">
-                    <a
-                      href="#"
-                      className="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700"
-                    >
-                      Start free trial
-                    </a>
-                  </div>
-                  <div className="mt-6 px-5">
-                    <p className="text-center text-base font-medium text-gray-500">
-                      Existing customer?{" "}
-                      <a href="#" className="text-gray-900 hover:underline">
-                        Login
-                      </a>
-                    </p>
-                  </div>
                 </div>
               </div>
             </Popover.Panel>
           </Transition>
         </Popover>
         <main>
-          <Hero ImageTravel={ImageTravel}/>
+          <Hero ImageTravel={ImageTravel} />
 
           <Pricing />
           <Platform />
 
-         <Gallery features={features}/>
+          <Gallery features={features} />
 
           <Testimonial />
 
@@ -430,7 +414,10 @@ function App() {
                   Kami sudah mengantongi izin
                 </p>
                 <p className="mt-3 text-lg text-gray-300">
-                  Azmi Tour sudah mengantongi izin Berusaha berbasis risiko dari Pemerintah Republik Indonesia dengan judul KBLI Jasa Pramuwisata, Dengan demikian tidak diragukan lagi ke absahannya, ayuk kita wisata bersama Azmi Tour
+                  Azmi Tour sudah mengantongi izin Berusaha berbasis risiko dari
+                  Pemerintah Republik Indonesia dengan judul KBLI Jasa
+                  Pramuwisata, Dengan demikian tidak diragukan lagi ke
+                  absahannya, ayuk kita wisata bersama Azmi Tour
                 </p>
                 <div className="mt-8">
                   <div className="inline-flex rounded-md shadow">
@@ -467,7 +454,8 @@ function App() {
                   alt="Company name"
                 />
                 <p className="text-gray-500 text-base">
-                Membuat dunia menjadi tempat yang lebih baik dengan merawatnya dan menjadikan tempat yang tenang untuk kita semua.
+                  Membuat dunia menjadi tempat yang lebih baik dengan merawatnya
+                  dan menjadikan tempat yang tenang untuk kita semua.
                 </p>
                 <div className="flex space-x-6">
                   {footerNavigation.social.map((item) => (
