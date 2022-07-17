@@ -48,7 +48,7 @@ export default function Pricing() {
                       </div>
                     </div>
                     <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
-                      <ul role="list" className="space-y-4">
+                      <ul className="space-y-4">
                         {hobbyFeatures.map((feature) => (
                           <li key={feature} className="flex items-start">
                             <div className="flex-shrink-0">
@@ -61,7 +61,9 @@ export default function Pricing() {
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
                           <a
-                            href="#"
+                            href="https://wa.me/+6289658596187"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-hobby"
                           >
@@ -101,7 +103,7 @@ export default function Pricing() {
                     </div>
                   </div>
                   <div className="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
-                    <ul role="list" className="space-y-4">
+                    <ul className="space-y-4">
                       {growthFeatures.map((feature) => (
                         <li key={feature} className="flex items-start">
                           <div className="flex-shrink-0">
@@ -114,7 +116,9 @@ export default function Pricing() {
                     <div className="mt-10">
                       <div className="rounded-lg shadow-md">
                         <a
-                          href="#"
+                          href="https://wa.me/+6289658596187"
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="block w-full text-center rounded-lg border border-transparent bg-indigo-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-indigo-700"
                           aria-describedby="tier-growth"
                         >
@@ -143,7 +147,7 @@ export default function Pricing() {
                       </div>
                     </div>
                     <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
-                      <ul role="list" className="space-y-4">
+                      <ul  className="space-y-4">
                         {scaleFeatures.map((feature) => (
                           <li key={feature} className="flex items-start">
                             <div className="flex-shrink-0">
@@ -156,7 +160,9 @@ export default function Pricing() {
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
                           <a
-                            href="#"
+                            href="https://wa.me/+6289658596187"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-scale"
                           >

@@ -35,7 +35,9 @@ export default function Faq() {
             <p className="mt-4 text-lg text-gray-500">
               Tidak dapat menemukan jawaban yang Anda cari? Hubungi kami{" "}
               <a
-                href="#"
+                href="https://wa.me/+6289658596187"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-medium text-indigo-600 hover:text-indigo-500"
               >
                 customer support
