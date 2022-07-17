@@ -16,10 +16,10 @@ export default function Pricing() {
     <div id="pricing" className="bg-white">
       <div className="pt-28 px-4 sm:px-6 lg:px-8 lg:pt-20">
         <div className="text-center">
-          <p className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl">
-            Cek Harga
+          <p className="mt-2 text-3xl font-extrabold text-gray-900tracking-tight leading-tight  sm:text-4xl lg:text-4xl">
+            Harga
           </p>
-          <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-700 sm:mt-5 sm:text-2xl">
+          <p className="mt-3 max-w-4xl mx-auto sm:mt-5  text-xl text-gray-500">
           Pilih dan Pesan Sekarang , silahkan tanyakan sesuai keinginan, Azmi Tour sangat terpercaya.
           </p>
         </div>
