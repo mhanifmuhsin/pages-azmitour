@@ -18,14 +18,16 @@ import Testimonial from "./components/Testimonial";
 import Faq from "./components/Faq";
 import Hero from "./components/Hero";
 import Gallery from "./components/Gallery";
+import { Link } from "react-scroll";
+import CTA from "./components/CTA";
 
 const navigation = [
-  { name: "Home", href: "#" },
-  { name: "Pricing", href: "#" },
-  { name: "Gallery", href: "#" },
-  { name: "Testimonial", href: "#" },
-  { name: "Article", href: "#" },
-  { name: "FAQ", href: "#" },
+  { name: "Home", href: "home" },
+  { name: "Pricing", href: "pricing" },
+  { name: "Gallery", href: "gallery" },
+  { name: "Testimonial", href: "testimonial" },
+  { name: "Legalisasi", href: "cta" },
+  { name: "FAQ", href: "faq" },
 ];
 const features = [
   {
@@ -242,13 +244,17 @@ function App() {
                 </div>
                 <div className="hidden space-x-8 md:flex md:ml-10">
                   {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="text-base font-medium text-white hover:text-gray-300"
+                    <Link
+                      activeClass="active"
+                      to={item.href}
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={500}
+                      className="text-base font-medium text-white hover:text-gray-300 cursor-pointer"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -312,12 +318,9 @@ function App() {
           <Testimonial />
 
           {/* Blog section */}
-          <div className="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
+          {/* <div className="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
             <div className="relative">
               <div className="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-                {/* <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">
-                Learn
-              </h2> */}
                 <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
                   Artikel
                 </p>
@@ -390,52 +393,10 @@ function App() {
                 ))}
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* CTA Section */}
-          <div className="relative bg-gray-900">
-            <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-              <img
-                className="w-full h-full object-cover"
-                src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&sat=-100"
-                alt=""
-              />
-              <div
-                aria-hidden="true"
-                className="absolute inset-0 bg-gradient-to-r from-teal-500 to-cyan-600 mix-blend-multiply"
-              />
-            </div>
-            <div className="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
-              <div className="md:ml-auto md:w-1/2 md:pl-10">
-                <h2 className="text-base font-semibold uppercase tracking-wider text-gray-300">
-                  Legalisasi Azmi Tour
-                </h2>
-                <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
-                  Kami sudah mengantongi izin
-                </p>
-                <p className="mt-3 text-lg text-gray-300">
-                  Azmi Tour sudah mengantongi izin Berusaha berbasis risiko dari
-                  Pemerintah Republik Indonesia dengan judul KBLI Jasa
-                  Pramuwisata, Dengan demikian tidak diragukan lagi ke
-                  absahannya, ayuk kita wisata bersama Azmi Tour
-                </p>
-                <div className="mt-8">
-                  <div className="inline-flex rounded-md shadow">
-                    <a
-                      href="#"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
-                    >
-                      Visit the help center
-                      {/* <ExternalLinkIcon
-                      className="-mr-1 ml-3 h-5 w-5 text-gray-400"
-                      aria-hidden="true"
-                    /> */}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <CTA/>
 
           <section>
             <Faq />

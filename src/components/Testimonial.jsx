@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 export default function Testimonial() {
   return (
-    <section className="bg-gradient-to-r from-teal-500 to-cyan-600">
+    <section id="testimonial" className="bg-gradient-to-r from-teal-500 to-cyan-600">
       <div className="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
         <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-gray-100 lg:pr-16">
           <div className="md:flex-shrink-0">

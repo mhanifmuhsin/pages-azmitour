@@ -13,7 +13,7 @@ const growthFeatures = [
 
 export default function Pricing() {
   return (
-    <div className="bg-white">
+    <div id="pricing" className="bg-white">
       <div className="pt-28 px-4 sm:px-6 lg:px-8 lg:pt-20">
         <div className="text-center">
           <p className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl">
