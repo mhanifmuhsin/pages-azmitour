@@ -1,8 +1,8 @@
 export default function MyPartners() {
   return (
     <section className="bg-white ">
-      <div className="py-8 mx-auto max-w-screen-xl px-4">
-        <h2 className="mb-6 lg:mb-10 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 md:text-4xl">
+      <div className="py-2 mx-auto max-w-screen-xl px-4">
+        <h2 className="mb-6 mt-28 lg:mt-0 lg:py-2 lg:mb-6 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 md:text-4xl">
           Mitra kita
         </h2>
         <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
