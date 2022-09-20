@@ -1,73 +1,28 @@
 import "./App.css";
 import {Popover, Transition} from "@headlessui/react";
-import {
-    CloudUploadIcon,
-    CogIcon,
-    LockClosedIcon,
-    MenuIcon,
-    RefreshIcon,
-    ServerIcon,
-    ShieldCheckIcon,
-    XIcon,
-} from "@heroicons/react/outline";
+import {MenuIcon, XIcon,} from "@heroicons/react/outline";
 import {Fragment} from "react";
 import ImageTravel from "./assets/tr_no_bg.png";
 import Paket from "./assets/img_1.png";
 import Paket2 from "./assets/img_2.png";
 import Pricing from "./components/Pricing";
-import Testimonial from "./components/Testimonial";
-import Faq from "./components/Faq";
 import Hero from "./components/Hero";
 import Gallery from "./components/Gallery";
 import {Link} from "react-scroll";
 import CTA from "./components/CTA";
 import MyPartners from "./components/MyPartner";
+import G1 from "./assets/g_1.jpg";
+import G2 from "./assets/g_2.jpg";
+import G3 from "./assets/g_3.jpg";
+import G4 from "./assets/g_4.jpg";
 
 const navigation = [
     {name: "Home", href: "home"},
     {name: "Paket & Harga", href: "pricing"},
-    {name: "Gallery", href: "gallery"},
-    {name: "Testimonial", href: "testimonial"},
+    {name: "Galeri", href: "gallery"},
+    // {name: "Testimonial", href: "testimonial"},
     {name: "Legalisasi", href: "cta"},
-    {name: "FAQ", href: "faq"},
-];
-const features = [
-    {
-        name: "Push to Deploy",
-        description:
-            "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.",
-        icon: CloudUploadIcon,
-    },
-    {
-        name: "SSL Certificates",
-        description:
-            "Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.",
-        icon: LockClosedIcon,
-    },
-    {
-        name: "Simple Queues",
-        description:
-            "Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui.",
-        icon: RefreshIcon,
-    },
-    {
-        name: "Advanced Security",
-        description:
-            "Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos suscipit perspiciatis.",
-        icon: ShieldCheckIcon,
-    },
-    {
-        name: "Powerful API",
-        description:
-            "Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id.",
-        icon: CogIcon,
-    },
-    {
-        name: "Database Backups",
-        description:
-            "Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et.",
-        icon: ServerIcon,
-    },
+    // {name: "FAQ", href: "faq"},
 ];
 
 function App() {
@@ -173,11 +128,10 @@ function App() {
                     <Hero ImageTravel={ImageTravel}/>
                     <MyPartners/>
                     <Pricing paket={Paket} paket2={Paket2}/>
-                    {/* <Platform /> */}
-                    <Gallery features={features}/>
-                    <Testimonial/>
+                    <Gallery g_1={G1} g_2={G2} g_3={G3} g_4={G4}/>
+                    {/*<Testimonial/>*/}
                     <CTA/>
-                    <Faq/>
+                    {/*<Faq/>*/}
                 </main>
             </div>
         </div>
