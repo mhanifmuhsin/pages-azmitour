@@ -1,6 +1,6 @@
 export default function CTA(){
     return(
-        <div id="cta" className="relative bg-gray-900" id="cta">
+        <div id="cta" className="relative bg-gray-900">
             <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
               <img
                 className="w-full h-full object-cover"

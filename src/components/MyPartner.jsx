@@ -8,10 +8,10 @@ export default function MyPartners() {
           Temukan Kita di Sosial Media
         </h2>
         <div className="flex justify-center text-2xl text-gray-500 dark:text-gray-400 space-x-6">
-          <a href="https://instagram.com/azmitourbdg?igshid=YmMyMTA2M2Y=" target="_blank" className="flex justify-center items-center">
+          <a href="https://instagram.com/azmitourbdg?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer" className="flex justify-center items-center">
             <RiInstagramLine size={60}/>azmitourbdg
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100078904869987" target="_blank" className="flex justify-center items-center">
+          <a href="https://www.facebook.com/profile.php?id=100078904869987" target="_blank" rel="noreferrer" className="flex justify-center items-center">
            <RiFacebookCircleLine size={60}/>AzmiTour
           </a>
         </div>

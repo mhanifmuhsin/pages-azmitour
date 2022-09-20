@@ -12,12 +12,12 @@ export default function Pricing({paket,paket2}) {
                 </div>
             </div>
 
-            <div className="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
+            <div className="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20 lg:flex lg:justify-center">
                 <div className="mx-auto flex justify-center">
-                    <img className="w-96" src={paket}/>
+                    <img className="w-96" src={paket} alt="paket1"/>
                 </div>
                 <div className="mx-auto flex justify-center mt-5">
-                    <img className="w-96" src={paket2}/>
+                    <img className="w-96" src={paket2} alt="paket2"/>
                 </div>
             </div>
         </div>
