@@ -12,7 +12,8 @@ import {
 } from "@heroicons/react/outline";
 import {Fragment} from "react";
 import ImageTravel from "./assets/tr_no_bg.png";
-import Paket from "./assets/paket_1.jpeg";
+import Paket from "./assets/img_1.png";
+import Paket2 from "./assets/img_2.png";
 import Pricing from "./components/Pricing";
 import Testimonial from "./components/Testimonial";
 import Faq from "./components/Faq";
@@ -171,7 +172,7 @@ function App() {
                 <main>
                     <Hero ImageTravel={ImageTravel}/>
                     <MyPartners/>
-                    <Pricing paket={Paket}/>
+                    <Pricing paket={Paket} paket2={Paket2}/>
                     {/* <Platform /> */}
                     <Gallery features={features}/>
                     <Testimonial/>
