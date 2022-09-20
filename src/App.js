@@ -24,7 +24,7 @@ import MyPartners from "./components/MyPartner";
 
 const navigation = [
     {name: "Home", href: "home"},
-    {name: "Pricing", href: "pricing"},
+    {name: "Paket & Harga", href: "pricing"},
     {name: "Gallery", href: "gallery"},
     {name: "Testimonial", href: "testimonial"},
     {name: "Legalisasi", href: "cta"},
