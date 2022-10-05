@@ -5,6 +5,7 @@ import {Fragment} from "react";
 import ImageTravel from "./assets/tr_no_bg.png";
 import Paket from "./assets/img_1.png";
 import Paket2 from "./assets/img_2.png";
+import Paket3 from "./assets/img_3.png";
 import Pricing from "./components/Pricing";
 import Hero from "./components/Hero";
 import Gallery from "./components/Gallery";
@@ -15,6 +16,10 @@ import G1 from "./assets/g_1.jpg";
 import G2 from "./assets/g_2.jpg";
 import G3 from "./assets/g_3.jpg";
 import G4 from "./assets/g_4.jpg";
+import G5 from "./assets/g_5.jpg";
+import G6 from "./assets/g_6.jpg";
+import G7 from "./assets/g_7.jpg";
+import G8 from "./assets/g_8.jpg";
 
 const navigation = [
     {name: "Home", href: "home"},
@@ -127,8 +132,8 @@ function App() {
                 <main>
                     <Hero ImageTravel={ImageTravel}/>
                     <MyPartners/>
-                    <Pricing paket={Paket} paket2={Paket2}/>
-                    <Gallery g_1={G1} g_2={G2} g_3={G3} g_4={G4}/>
+                    <Pricing paket={Paket} paket2={Paket2} paket3={Paket3}/>
+                    <Gallery g_1={G1} g_2={G2} g_3={G3} g_4={G4} g_5={G5} g_6={G6} g_7={G7} g_8={G8}/>
                     {/*<Testimonial/>*/}
                     <CTA/>
                     {/*<Faq/>*/}

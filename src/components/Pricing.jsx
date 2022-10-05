@@ -1,4 +1,4 @@
-export default function Pricing({paket,paket2}) {
+export default function Pricing({paket,paket2,paket3}) {
     return (
         <div id="pricing" className="bg-white">
             <div className="pt-16 lg:pt-36 px-4 sm:px-6 lg:px-8 lg:pt-36">
@@ -18,6 +18,9 @@ export default function Pricing({paket,paket2}) {
                 </div>
                 <div className="mx-auto flex justify-center mt-5">
                     <img className="w-96" src={paket2} alt="paket2"/>
+                </div>
+                <div className="mx-auto flex justify-center mt-5">
+                    <img className="w-96" src={paket3} alt="paket3"/>
                 </div>
             </div>
         </div>
