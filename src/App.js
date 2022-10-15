@@ -6,6 +6,7 @@ import ImageTravel from "./assets/tr_no_bg.png";
 import Paket from "./assets/img_1.png";
 import Paket2 from "./assets/img_2.png";
 import Paket3 from "./assets/img_3.png";
+import Paket4 from "./assets/img_4.png";
 import Pricing from "./components/Pricing";
 import Hero from "./components/Hero";
 import Gallery from "./components/Gallery";
@@ -132,7 +133,7 @@ function App() {
                 <main>
                     <Hero ImageTravel={ImageTravel}/>
                     <MyPartners/>
-                    <Pricing paket={Paket} paket2={Paket2} paket3={Paket3}/>
+                    <Pricing paket={Paket} paket2={Paket2} paket3={Paket3} paket4={Paket4}/>
                     <Gallery g_1={G1} g_2={G2} g_3={G3} g_4={G4} g_5={G5} g_6={G6} g_7={G7} g_8={G8}/>
                     {/*<Testimonial/>*/}
                     <CTA/>
